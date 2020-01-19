@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2019
-** my_strupcase.c
+** libfae
 ** File description:
 ** Change lowercase to upercase
 */

@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2019
-** my_putstr.c
+** libfae
 ** File description:
 ** Display a string
 */

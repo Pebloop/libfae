@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2019
-** my_swap.c
+** libfae
 ** File description:
 ** swap content of two integers
 */

@@ -2,15 +2,15 @@
 ** EPITECH PROJECT, 2019
 ** libfae
 ** File description:
-** return length of a string
+** Compare two string
 */
 
-int fae_strlen(char const *str)
+int arraylen(void **array)
 {
     int len = 0;
 
-    if (!str)
+    if (!array)
         return 0;
-    for (; str[len]; len++);
+    for (; array[len]; len++);
     return len;
 }

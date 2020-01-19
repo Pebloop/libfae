@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2019
-** my_revstr.c
+** libfae
 ** File description:
 ** Reverse a string
 */

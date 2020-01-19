@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2019
-** my_showstr.c
+** libfae
 ** File description:
 ** show non printable characters in string
 */

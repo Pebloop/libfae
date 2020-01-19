@@ -14,6 +14,18 @@ void fae_putchar(char);
 
 int fae_putstr(char const *);
 
+void fae_putnb(int);
+
+void fae_putfloat(float, int);
+
+void fae_putbase(int, char const *);
+
+/*  CONVERSION  */
+
+int fae_stoi(char const *, char **);
+
+char *fae_itos(int);
+
 /*  STRING  */
 
 int fae_strlen(char const *);
@@ -56,6 +68,12 @@ int fae_power(int, int);
 
 int fae_square_root(int);
 
+int fae_nblen(int);
+
+/*  ARRAY  */
+
+int arraylen(void **);
+
 /* LOGIC  */
 
 void fae_swap(void **, void **);
@@ -65,5 +83,19 @@ void fae_iswap(int *, int *);
 void fae_cswap(char *, char *);
 
 void fae_fswap(float *, float *);
+
+/*  SORT  */
+
+void fae_sort_int(int *, int *);
+
+void fae_sort_char(char *, char *);
+
+void fae_sort_str(char **, char **);
+
+void fae_sort_int_array(int *, int);
+
+void fae_sort_char_array(char *);
+
+void fae_sort_str_array(char **);
 
 #endif /*FAE_H*/

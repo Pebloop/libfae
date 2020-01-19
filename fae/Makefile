@@ -9,6 +9,13 @@ SRC	=	src/putchar.c			\
 		src/char_is.c			\
 		src/square_root.c		\
 		src/str_change_case.c	\
+		src/nblen.c				\
+		src/putnb.c				\
+		src/convert_numbers.c	\
+		src/arraylen.c			\
+		src/sort_int.c			\
+		src/sort_char.c			\
+		src/sort_str.c			\
 
 OBJ	=	$(SRC:.c=.o)
 

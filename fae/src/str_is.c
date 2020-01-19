@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2019
-** my_str_is_upper.c
+** libfae
 ** File description:
 ** Return 1 if is uppercase
 */

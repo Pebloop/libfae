@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2019
-** my_compute_square_root.c
+** libfae
 ** File description:
 ** Return the square root
 */
