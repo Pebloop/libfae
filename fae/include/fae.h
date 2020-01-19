@@ -20,6 +20,8 @@ void fae_putfloat(float, int);
 
 void fae_putbase(int, char const *);
 
+void fae_put(char *, ...);
+
 /*  CONVERSION  */
 
 int fae_stoi(char const *, char **);

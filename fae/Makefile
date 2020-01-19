@@ -1,5 +1,6 @@
 SRC	=	src/putchar.c			\
 		src/putstr.c			\
+		src/put.c				\
 		src/strlen.c			\
 		src/revstr.c			\
 		src/power.c				\
@@ -16,6 +17,8 @@ SRC	=	src/putchar.c			\
 		src/sort_int.c			\
 		src/sort_char.c			\
 		src/sort_str.c			\
+
+INC = include/
 
 OBJ	=	$(SRC:.c=.o)
 
