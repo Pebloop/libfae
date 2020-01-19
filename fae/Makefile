@@ -18,7 +18,7 @@ SRC	=	src/putchar.c			\
 		src/sort_char.c			\
 		src/sort_str.c			\
 
-INC = include/
+CFLAGS = -Iinclude/
 
 OBJ	=	$(SRC:.c=.o)
 

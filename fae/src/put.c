@@ -6,6 +6,7 @@
 */
 
 #include <unistd.h>
+#include <stdarg.h>
 #include "fae.h"
 
 static void infae_put_var(char type, va_list arg)
@@ -15,7 +16,7 @@ static void infae_put_var(char type, va_list arg)
             fae_putnb(va_arg(arg, int));
             break;
         case 'c':
-            fae_putchar(va_arg(arg, char));
+            fae_putchar((char)(va_arg(arg, int)));
             break;
         case 's':
             fae_putstr(va_arg(arg, char *));

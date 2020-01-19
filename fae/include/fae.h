@@ -24,7 +24,7 @@ void fae_put(char *, ...);
 
 /*  CONVERSION  */
 
-int fae_stoi(char const *, char **);
+int fae_stoi(char const *, char const **);
 
 char *fae_itos(int);
 
@@ -50,7 +50,7 @@ int fae_str_is_alphanum(char const *, char);
 
 void fae_str_up(char *);
 
-void my_str_low(char *);
+void fae_str_low(char *);
 
 /*  CHAR  */
 
@@ -62,7 +62,7 @@ int fae_char_is_num(char);
 
 int fae_char_is_alpha(char);
 
-int fae_str_is_alphanum(char);
+int fae_char_is_alphanum(char);
 
 /*  MATHS  */
 
@@ -74,7 +74,7 @@ int fae_nblen(int);
 
 /*  ARRAY  */
 
-int arraylen(void **);
+int fae_arraylen(void **);
 
 /* LOGIC  */
 

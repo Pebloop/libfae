@@ -7,7 +7,7 @@
 
 void fae_swap(void **a, void **b)
 {
-    void stock = *a;
+    void *stock = *a;
 
     *a = *b;
     *b = stock;

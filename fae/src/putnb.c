@@ -12,7 +12,6 @@ static void infae_display_number(int nb)
     int length = fae_nblen(nb);
     int to_display = 0;
 
-    length = get_int_length(nb);
     for (int index = length; index > 0; index--) {
         to_display = (nb / fae_power(10, index - 1)) % 10;
         to_display *= (nb < 0) ? -1 : 1;
@@ -53,7 +52,7 @@ static char infae_rec_putbase(int nb, char const *base, int length)
 {
 
     if (nb != 0)
-        print_in_base(nb / length, base, length);
+        infae_rec_putbase(nb / length, base, length);
     else
         return 0;
     if (nb < 0)
@@ -73,5 +72,5 @@ void fae_putbase(int nb, char const *base)
         return;
     }
     (nb < 0) ? fae_putchar('-') : 1;
-    infae_rec_putbase(nbr, base, nbr_base);
+    infae_rec_putbase(nb, base, base_len);
 }

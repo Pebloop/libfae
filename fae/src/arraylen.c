@@ -5,7 +5,7 @@
 ** Compare two string
 */
 
-int arraylen(void **array)
+int fae_arraylen(void **array)
 {
     int len = 0;
 

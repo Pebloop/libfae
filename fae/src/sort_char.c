@@ -24,5 +24,5 @@ void fae_sort_char_array(char *array)
 
     for (int progress = 0; progress < len - 1; progress++)
         for (int index = 0; index < len - 1; index++)
-            fae_sort_int(&array[index], &array[index + 1]);
+            fae_sort_char(&array[index], &array[index + 1]);
 }
