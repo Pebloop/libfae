@@ -14,5 +14,5 @@ void fae_putstr(char const *str)
     if (!str)
         return;
     for (; str[len]; len++);
-    write(0, str, len);
+    write(1, str, len);
 }

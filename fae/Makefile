@@ -29,6 +29,7 @@ all:	$(NAME)
 $(NAME):	$(OBJ)
 	ar rc $(NAME) $(OBJ)
 	cp include/* ../../include
+	echo "[DONE]"
 
 clean:
 	rm -f $(OBJ)
