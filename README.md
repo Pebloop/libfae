@@ -53,4 +53,4 @@ no.
   
 ## Authors
 
-* Me, **Pebloop** ! 
+* **Pebloop**
