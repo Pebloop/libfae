@@ -29,6 +29,10 @@ make
 
 You can now use the libfae.a generated in your projects.
 
+### Documentation
+
+[Check here for more information](https://github.com/TempoDev/libfae/blob/master/doc/doc.md)
+
 ## Running the tests
 
 lol
