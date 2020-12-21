@@ -16,7 +16,7 @@ The infamous epilib of EPITECH, but fixed and better.
 ### Installing
 
 Add content of malloc directory in the fae directory if memory management functions are allowed before creating the lib.
-Replace h files and makefile.
+Replace h files and the makefile.
 ```sh
 cp malloc/* fae/*
 ```
@@ -28,3 +28,25 @@ make
 ```
 
 You can now use the libfae.a generated in your projects.
+
+## Running the tests
+
+lol
+
+## Deployment
+
+...why ?
+
+## Contributing
+
+no.
+
+## Versioning
+
+1.0 :
+  * there are thing on this repo
+  * There is a readme
+  
+## Authors
+
+* Me, **Pebloop** ! 
