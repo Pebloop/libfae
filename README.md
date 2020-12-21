@@ -53,4 +53,4 @@ no.
   
 ## Authors
 
-* **Pebloop**
+* [**Pebloop**](https://github.com/TempoDev)
